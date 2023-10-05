@@ -1,0 +1,36 @@
+.cabecalho{
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    width: 15%;
+    
+    ul{
+        list-style: none;
+       margin: 0 0 0 0%;
+       padding: 0%;
+
+        li a{
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 5%;
+            margin: 0.5% 0;
+            color: #fff;
+            transition: 300ms ease-out;
+            &:hover{
+                background-color: #007cc4;
+                
+            }
+
+        }
+    }
+
+    .active{
+        background-color: #007cc4;
+        color: white;
+    }
+
+}
